@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+
+@media(min-width: 767px)
+{
+    .navbar
+    {
+        top: 0px; right: 0px; left: 0px;
+        width:100%; 
+        border: none; border-radius: 0px;
+        margin-top: 0px;
+    }
+    .navbar-brand > a > img
+    {
+        margin: -1px 5px 0px 0px;
+    }
+    .navbar-brand > img, .navbar-brand > a > img
+    {
+        width: 40px;
+        height: 40px;
+        border-radius: 3px;
+    }
+}
+@media(max-width: 767px) 
+{
+    .leftsidebar-collapse
+    {
+        position: fixed;
+        top: 55px; bottom: 0;
+        padding: 0rem 1rem 0rem 1rem;
+        overflow-y: auto;
+        transition: -webkit-transform .3s ease-in-out; transition: transform .3s ease-in-out;
+    }
+    .leftsidebar-collapse
+    {
+        width: 70%;
+        transition: -webkit-transform .3s ease-in-out; transition: transform .3s ease-in-out; -webkit-transform: translateX(-100%); transform: translateX(-100%);
+    }
+    .leftsidebar-collapse.open
+    {
+        -webkit-transform: translateX(0%); transform: translateX(0%);
+    }
+    .navbar-brand > a > img, .navbar-brand > img
+    {
+        margin: -3px 5px 0px 45px;
+    }
+    .navbar-brand > img, .navbar-brand > a > img
+    {
+        width: 35px;
+        height: 35px;
+        border-radius: 3px;
+    }
+}
+body
+{
+    font-family: 'Lato';
+    margin-top: 100px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+a, a:hover
+{
+    font-size: 15px;
+    text-decoration: none;
+    color: #3973ac;
+    outline: 0 !important;
+    outline-offset: 0  !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none  !important;
+}
+a:visited
+{
+    color: #264d73;
+}
+p
+{
+    line-height: 27px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    color: #000000;
+}
+pre
+{
+    font-size: 15px;
+    color: #e6e6e6;
+    word-break: keep-all;
+    word-wrap: inherit;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+a.card
+{
+    border: none;
+    text-decoration: none;
+}
+div.darkwell
+{
+    font-size: 15px;
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #29293d;
+    text-align: left;
+    padding: 10px;
+    padding-left: 10px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+div.boardtitle
+{
+    background-color: #29293d; 
+    color: #ffffff; 
+    font-size: 15px;
+    padding: 10px;
+    border-top-left-radius: 3px; 
+    border-top-right-radius: 3px;
+}
+div.board
+{
+    border-radius: 3px; 
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.10);
+    border: 1px solid #d9d9d9;
+    margin-bottom: 40px;
+}
+div.boardtitle ~ a
+{
+    content: '';
+    display: block;
+    border-bottom: 1px solid #e6e6e6;
+    border-radius: 0px;
+    padding: 12px;
+    border-left: 2px solid transparent;
+}
+div.boardtitle ~ a:hover, div.boardtitle ~ a:focus
+{
+    background-color: #f2f2f2;
+    transition: 0.1s;
+    border-left: 2px solid #29293d; 
+}
+div.boardtitle ~ a:last-child
+{
+    border-bottom: 1px solid transparent;
+    border-radius: 3px;
+}
+div.boardtitle ~ a:last-child:hover, div.boardtitle ~ a:last-child:focus
+{
+    border-radius: 0px;
+}
+.navbar
+{
+    background-color: #000000;
+    height: 55px;
+}
+.sidebar 
+{
+    background-color: #ffffff;
+    top: 55px; bottom: 0; left: 0;
+    padding: 0;
+    overflow-y: auto;
+    border-right: 1px solid #e6e6e6;
+    position: fixed;
+}
+.sidebar > a
+{
+    font-size: 15px;
+    padding: 12px;
+    border-left: 5px solid transparent;
+    border-bottom: 1px solid #e6e6e6;
+}
+.sidebar > a:last-child
+{
+    margin-bottom: 30px;
+}
+.sidebar > a:hover, .sidebar > a:focus
+{
+    background-color: #e6e6e6;
+    color: #000000;
+}
+.sidebar, pre
+{
+    scrollbar-width: thin;
+}
+.activetab
+{
+    background-color: #e6e6e6;
+}
+.nav-link.activetab
+{ 
+    color: #000000; 
+    font-weight: bold; 
+}
+.navbar-toggler:focus, a
+{
+    outline: 0 !important;
+    outline-offset: 0  !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none  !important;
+}

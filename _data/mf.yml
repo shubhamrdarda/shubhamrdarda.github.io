@@ -1,0 +1,84 @@
+chapters:
+  - title: Number System
+    url: mfidaes
+
+  - title: Test of Divisibility
+    url: mfidano
+
+  - title: Evaluation of Arithmetic Expression and Elementry Algebra
+    url: mfidawt
+
+  - title: Mathematical Logic
+    url: mfidbud
+
+  - title: Commutative, Associative and Distributive Laws, and Logic Gates
+    url: mfiddpb
+
+  - title: Boolean Identities, Logical Equivalence, and Set Properties
+    url: mfidebw
+
+  - title: Logarithms
+    url: mfideiy
+
+  - title: Indices and  Surds
+    url: mfideme
+
+  - title: Profit and Loss, and Interest
+    url: mfidetn
+
+  - title: Time and Distance
+    url: mfidewh
+
+  - title: Arithmetic, Geometric, and Harmonic Progressions
+    url: mfidghz
+
+  - title: Probability, Random Experiment and Conditional Probability
+    url: mfidign
+
+  - title: Sum and Difference of Two Angles, Trigonometric ratios, and Derivative
+    url: mfidkge
+
+  - title: Integration (Primitivie)
+    url: mfidmoz
+
+  - title: Fourier Series and Fourier Coefficients
+    url: mfidnak
+
+  - title: Reduction Formula for Sinusoidal Function
+    url: mfidnap
+
+  - title: Gamma and Beta Functions
+    url: mfidofe
+
+  - title: Differentiation under the Integral sign and Error Function
+    url: mfidqdq
+
+  - title: Taylor's Series and Maclaurin's Series
+    url: mfidqwd
+
+  - title: "Infinite Series: Test of Convergence"
+    url: mfidrzd
+
+  - title: Z-Transform
+    url: mfiduok
+
+  - title: "Plane Geometry: Lines and Angles"
+    url: mfidvev
+
+  - title: "Geometry: Triangle and Trapezoid"
+    url: mfidvvt
+
+  - title: "Geometry: Square, Rectangle, Parallelogram, and Rhombus"
+    url: mfidwnd
+
+  - title: Coordinate System, Plane, and Straight Line
+    url: mfidwuy
+
+  - title: "Geometry: Sphere and Cone"
+    url: mfidwvo
+
+  - title: "Geometry: Mensuration-I"
+    url: mfidwya
+
+  - title: "Geometry: Mensuration-II"
+    url: mfidxzw

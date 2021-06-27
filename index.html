@@ -1,0 +1,120 @@
+---
+title: "Shubham Darda"
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ page.title }}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Shubham Darda, shubhamrdarda">
+    <meta name="description" content="Founder and Architect of Kodingwindow">
+    <meta name="author" content="Shubham Darda">
+    <link rel="stylesheet" href="{{ site.bootstrap_css }}">
+    <script src="{{ site.jquery }}"></script>
+    <script src="{{ site.bootstrap_js }}"></script>
+    <script src="{{ site.common_js }}"></script>
+    <link rel="icon" href="{{ site.profile }}">
+    <meta property="og:image" content="{{ site.profile }}">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-200633578-1"></script>
+    <style type="text/css">
+    @import url('https://fonts.googleapis.com/css2?family=Lato');
+    @media(max-width: 1920px), (min-width: 1367px)
+    {
+        body
+        {
+            background-size: 1920px 1099px;
+            padding-top: 140px;
+        }
+    }
+    @media(max-width: 1366px), (max-width: 767px)
+    {
+        body
+        {
+            background-size: 1366px 782px;
+            padding-top: 80px;
+        }
+    }
+    body
+    {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%), url('{{ site.background }}');
+        background-repeat: no-repeat;
+        font-family: 'Lato';
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-color: #000000;
+    }
+    footer 
+    {
+        position: fixed;
+        bottom: 0;
+        padding: 10px 10px 30px 10px;
+        width: 100%;
+    }
+    .btn
+    {
+        background-color: transparent;
+        border-color: #04aa6d;
+        border-width: 2px;
+        color: #ffffff;
+        font-size: 17px;
+        box-shadow: 0 0 9px rgba(0, 0, 0, 0.4);
+        transition: 0.6s;
+    }
+    .btn:hover
+    {
+        background-color: #04aa6d;
+        color: #000000;
+        border-width: 2px;
+        box-shadow: none;
+    }
+    .navbar-toggler:focus, a
+    {
+        outline: 0 !important;
+        outline-offset: 0  !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none  !important;
+    }
+    </style>
+</head>
+
+<body>
+<nav class="navbar-dark fixed-top">      
+    <button class="navbar-toggler p-0" style="margin: 15px; border: none;" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+
+<div class="text-center">
+    <img height="200px" width="200px" src="{{ site.profile }}" class="img-thumbnail">
+    <div style="color: white; font-size: 30px; padding-top: 15px;">I'm Shubham Darda</div>
+    <div style="color: white; font-size: 20px; padding-top: 5px; padding-bottom: 20px;">Founder and Architect of Kodingwindow</div>
+    <a href="https://kodingwindow.com/" target="_blank" class="btn btn-lg" role="button">See My Work</a>
+</div>
+
+<div class="modal fade" id="exampleModal" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Useful Links</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" style="box-shadow: none;"></button>
+            </div>
+            <div class="modal-body">
+                <div class="card" >
+                    <ul class="list-group list-group-flush">
+                        <a href="{{ site.url }}mathematics/" style="text-decoration: none;"><li class="list-group-item">Mathematics Formulas</li></a>
+                        <a href="{{ site.url }}graphtheory/" style="text-decoration: none;"><li class="list-group-item">Graph Theory</li></a>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<footer>{% include footer.html %}</footer>
+
+</body>
+</html>

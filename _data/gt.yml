@@ -1,0 +1,39 @@
+chapters:
+  - title: Introduction to Graph Theory
+    url: gtidaes/
+
+  - title: Basic Terminology of Graph
+    url: gtidano/
+
+  - title: Types of Graphs
+    url: gtidawt/
+
+  - title: Degree of Vertex
+    url: gtidbud/
+
+  - title: Diagraphs and Complete Graph
+    url: gtiddpb/
+
+  - title: Directed Complete Graph and Bipartite Graph
+    url: gtidebw/
+
+  - title: Complete Bipartite Graph and Null Graph
+    url: gtideiy/
+
+  - title: Linked Representation of Graph and Acyclic Graph
+    url: gtideme/
+
+  - title: Matrix Representation of Graphs (Adjacency and Incidence Matrix)
+    url: gtidetn/
+
+  - title: Adjacency and Incidence Matrix of a Diagraph
+    url: gtidewh/
+
+  - title: Planar Graph and Regions
+    url: gtidghz/
+
+  - title: Path and Circuit
+    url: gtidign/
+
+  - title: Summary of Graph Theory (Very Important)
+    url: gtidkge/
