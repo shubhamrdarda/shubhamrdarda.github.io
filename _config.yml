@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Shubham Darda
-url: http://shubhamrdarda.com/
+url: https://shubhamrdarda.com/
 kwurl: https://kodingwindow.com/
 
 bootstrap_css: ../../assets/css/bootstrap.min.css

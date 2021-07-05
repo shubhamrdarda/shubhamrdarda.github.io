@@ -68,6 +68,7 @@ title: "Shubham Darda"
     {
         background-color: #04aa6d;
         color: #000000;
+        font-size: 17px;
         border-width: 2px;
         box-shadow: none;
     }
@@ -77,6 +78,12 @@ title: "Shubham Darda"
         outline-offset: 0  !important;
         -webkit-box-shadow: none !important;
         box-shadow: none  !important;
+    }
+    a, a:hover, a.nav-link, a.nav-link:hover
+    {
+        color: #3973ac;
+        font-size: 15px;
+        text-decoration: none;
     }
     </style>
 </head>
@@ -96,7 +103,7 @@ title: "Shubham Darda"
 </div>
 
 <div class="modal fade" id="exampleModal" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Useful Links</h5>
@@ -105,8 +112,11 @@ title: "Shubham Darda"
             <div class="modal-body">
                 <div class="card" >
                     <ul class="list-group list-group-flush">
-                        <a href="{{ site.url }}mathematics/" style="text-decoration: none;"><li class="list-group-item">Mathematics Formulas</li></a>
-                        <a href="{{ site.url }}graphtheory/" style="text-decoration: none;"><li class="list-group-item">Graph Theory</li></a>
+                        <a href="{{ site.url }}mathematics/" class="list-group-item">Mathematics Formulas</a>
+                        <a href="{{ site.url }}graphtheory/" class="list-group-item">Graph Theory Notes</a>
+                        <a href="https://pluralsight.com/profile/shubhamrdarda/" class="list-group-item" target="_blank">Pluralsight Profile</a>
+                        <a href="https://www.kaggle.com/shubhamrdarda" class="list-group-item" target="_blank">Kaggle Profile</a>
+                        <a href="https://medium.com/@shubhamrdarda" class="list-group-item" target="_blank">Medium Profile</a>
                     </ul>
                 </div>
             </div>
